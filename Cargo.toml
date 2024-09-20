@@ -1,0 +1,21 @@
+[package]
+name = "kyber-rust"
+version = "0.2.0"
+authors = ["Zachary Kleckner zkleckner@gmail.com"]
+edition = "2021"
+description = "A Rust wrapper for the Kyber post-quantum key encapsulation mechanism"
+license = "MIT"
+repository = "https://github.com/goldenhippo58/kyber-rust"
+readme = "README.md"
+keywords = ["cryptography", "post-quantum", "kyber", "kem"]
+categories = ["cryptography"]
+
+[lib]
+name = "kyber_rust"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+libloading = "0.8"
+
+[build-dependencies]
+cc = "1.0"
