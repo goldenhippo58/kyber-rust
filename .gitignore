@@ -4,9 +4,9 @@
 *.log
 Cargo.lock
 
-# Ignore submodules
-/.gitmodules
-/.submodule
+<<<<<<< HEAD
+
+>>>>>>> 15d9641 (Initial commit of Kyber Rust wrapper)
 
 # Ignore the kyber submodule if it's no longer treated as one
 /kyber/
@@ -30,3 +30,6 @@ Thumbs.db
 .DS_Store
 *.swp
 *.swo
+<<<<<<< HEAD
+
+>>>>>>> 15d9641 (Initial commit of Kyber Rust wrapper)
