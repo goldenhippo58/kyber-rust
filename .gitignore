@@ -1,73 +1,32 @@
-<<<<<<< HEAD
-target/
-Cargo.lock
-=======
-# Rust build artifacts
-/target
+# Ignore build output and generated files
+/target/
 **/*.rs.bk
+*.log
+Cargo.lock
 
-# Cargo.lock should be ignored for libraries
-# Uncomment this line if you're building an executable instead of a library
-# Cargo.lock
+# Ignore submodules
+/.gitmodules
+/.submodule
 
-# IDE and editor files
-.vscode/
-.idea/
+# Ignore the kyber submodule if it's no longer treated as one
+/kyber/
+
+# Node-related files (if applicable)
+/node_modules/
+
+# Python virtual environment (if applicable)
+/venv/
+/env/
+/__pycache__/
+
+# IDE files
+/.vscode/
+/.idea/
+/*.iml
+*.DS_Store
+
+# Operating System files
+Thumbs.db
+.DS_Store
 *.swp
 *.swo
-*~
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Kyber specific files
-kyber/libs/*.dll
-kyber/libs/*.exp
-kyber/libs/*.lib
-
-/kyber/
-!/kyber/important_file.txt
-
-# Build artifacts
-*.o
-*.so
-*.dylib
-*.dll
-*.exe
-
-# Test artifacts
-*.gcda
-*.gcno
-
-# Documentation
-/doc
-
-# Backup files
-*.bak
-
-# Log files
-*.log
-
-# Temporary files
-*.tmp
-
-# Environment files
-.env
-.env.local
-
-# Compiled Python files (if any scripts are used)
-*.pyc
-__pycache__/
-
-# Dependency directories (remove if you're committing these)
-/vendor/
-
-# Any other project-specific files or directories to ignore
-# Add them here
->>>>>>> be76552 (Initial commit of Kyber-Rust library)
