@@ -19,7 +19,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-kyber-rust = "0.1.0"
+kyber-rust = "0.2.1"
 ```
 
 ## Usage
